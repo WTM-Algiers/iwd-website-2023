@@ -5,6 +5,15 @@ module.exports = {
     fontFamily: {
       PTsans: ["PT Sans", "sans-serif"],
     },
+    colors: {
+      "iwd-gray": '#231F1F',
+      "iwd-dark": '#000000',
+      "iwd-white": "#ffffff",
+      "iwd-pink": "#F2BFA0",
+      "iwd-blue": "#79A0EF",
+      "iwd-purple": "#8653ed"
+
+    }, 
     screens: {
       sm: "540px",
       md: "768px",

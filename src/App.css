@@ -5,3 +5,20 @@
 .container {
     @apply w-11/12 mx-auto
 }
+
+.upper-border {
+    position: absolute;
+    left: 49%;
+}
+
+.lower-border {
+    position: absolute;
+    right: 49.5%;
+    
+}
+
+.about-element {
+    position: absolute;
+    right: 46%;
+    top: 78%;
+}

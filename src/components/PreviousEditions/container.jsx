@@ -1,19 +1,16 @@
-import { useEffect } from "react"
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import cursor from "../../assets/PreviousEditions/cursor.png"
-import curve from "../../assets/icons/curve.png"
-
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import cursor from "../../assets/PreviousEditions/cursor.png";
+import curve from "../../assets/icons/curve.png";
 
 const Container = ({ paragraph, image, reverse, first }) => {
-      
-      useEffect(()=> {
-        AOS.init({duration:1500});
-      },[])
-  
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
     <div className="flex flex-col items-center lg:flex-row 2xl:flex-row lg:gap-24 2xl:gap-28 lg:px-[106px] 2xl:px-[160px] mt-[51px]">
-      
       <div
         className={` relative w-[350px] h-[234.4px] lg:w-[569px] lg:h-[381px] 2xl:w-[854.44px] 2xl:h-[572.22px] ${
           reverse && "lg:order-last 2xl:order-last"
@@ -28,7 +25,7 @@ const Container = ({ paragraph, image, reverse, first }) => {
           src={curve}
           alt=""
         />
-        
+
         <img
           className={` absolute  bottom-[-20px] right-[-10px]  lg:-bottom-10 2xl:bottom-0 lg:-right-10 2xl:right-0 w-[58.53px] h-[58.15px] lg:w-[101.33px] lg:h-[100.67px] 2xl:w-[120px] 2xl:h-[151px]${
             !first && " hidden lg:hidden 2xl:hidden"
@@ -37,11 +34,11 @@ const Container = ({ paragraph, image, reverse, first }) => {
           alt=""
           data-aos="fade-up"
         />
-  
       </div>
 
-      <p className="text-justify mt-14 text-iwd-gray text-normal text-[22px] lg:text-[19px] 2xl:text-[28px] lg:leading-10 2xl:leading-[48px] w-[350px] lg:w-[399.33px] 2xl:w-[599px]">{paragraph}</p>
-
+      <p className="text-justify mt-14 text-iwd-gray text-normal text-[22px] lg:text-[19px] 2xl:text-[28px] lg:leading-10 2xl:leading-[48px] w-[350px] lg:w-[399.33px] 2xl:w-[599px]">
+        {paragraph}
+      </p>
     </div>
   );
 };

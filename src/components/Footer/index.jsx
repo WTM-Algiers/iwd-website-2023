@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <section>
       <div className="flex flex-col items-center justify-end w-full lg:h-screen">
-        <div className="flex items-center justify-center w-full font-bold text-[50px] p-12  mb-12  lg:text-[70px] lg:h-[30%] 2xl:h-[35%] bg-gradient-to-l text-iwd-white from-iwd-purple to-iwd-blue">
+        <div className="flex items-center justify-center w-full font-bold text-[50px] p-12 mb-12  lg:text-[70px] lg:h-[30%] 2xl:h-[35%] bg-gradient-to-l text-iwd-white from-iwd-purple to-iwd-blue">
           <p className="text-center">Still have a question ?</p>
         </div>
 
@@ -71,7 +71,7 @@ const Footer = () => {
           <img
             src={WTM}
             className="lg:p-1/3 w-[100px] h-[20px] lg:w-[170px] lg:h-[30px]  "
-            alt=""
+            alt="WTM Algiers"
           />
 
           <p className="lg:p-1/3 text-[10px] lg:text-[15px] 2xl:text-[20px]">
@@ -80,7 +80,7 @@ const Footer = () => {
           <img
             src={GDG}
             className="lg:p-1/3 w-[90px] h-[15px] lg:w-[170px] lg:h-[22px]"
-            alt=""
+            alt="GDG Algiers"
           />
         </div>
       </div>

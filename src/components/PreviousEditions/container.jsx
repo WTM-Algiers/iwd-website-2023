@@ -11,19 +11,21 @@ const Container = ({ paragraph, image, reverse, first }) => {
 
   return (
     <div className="flex flex-col items-center lg:flex-row 2xl:flex-row lg:gap-24 2xl:gap-28 lg:px-[106px] 2xl:px-[160px] mt-[51px]">
-      
-      <div className={` relative w-[350px] lg:w-[569px] 2xl:w-[854.44px]  ${ reverse && "lg:order-last 2xl:order-last"
-        }`} >
-        
+      <div
+        className={` relative w-[350px] lg:w-[569px] 2xl:w-[854.44px] ${
+          reverse && "lg:order-last 2xl:order-last"
+        }`}
+      >
         <img
           className=" w-[294.02px] h-[190.7px] lg:w-[478.52px] lg:h-[310.37px] 2xl:w-[717.78px] 2xl:h-[465.56px] mx-[26px] my-[20px] lg:mx-[46px] lg:my-[35px] 2xl:mx-[68px] 2xl:my-[53px]"
           src={image}
+          alt="WTM ambassador"
         />
-        
+
         <img
           className="absolute top-0 left-0 w-[104.57px] h-[48.69px] lg:w-[170.19px] lg:h-[79.24px] 2xl:w-[255.29px] 2xl:h-[118.87px]"
           src={curve}
-          alt=""
+          alt="shape"
         />
 
         <img
@@ -31,7 +33,7 @@ const Container = ({ paragraph, image, reverse, first }) => {
             !first && " hidden lg:hidden 2xl:hidden"
           }`}
           src={cursor}
-          alt=""
+          alt="shape"
           data-aos="fade-up"
         />
       </div>

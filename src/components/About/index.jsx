@@ -36,8 +36,9 @@ const About = () => {
                 </div>
 
             </div>  */}
-            <img class="upper-border" src="\src\assets\About\upper-border.png" alt="..." />
-            <div class=" flex items-center h-screen">
+
+            {/* <img class="upper-border visible sm:hidden" src="\src\assets\About\upper-border.png" alt="..." />
+            <div class=" flex items-center  h-screen">
 
                 <div class="w-1/2 h-screen p-7 pb-15">
                     <div class="flex items-center justify-center p-4" >
@@ -55,8 +56,12 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-                <img class="about-element" src="\src\assets\About\about-element.png" alt="..." />
+                <img class="about-element visible sm:hidden" src="\src\assets\About\about-element.png" alt="..." />
+                
                 <div class="w-1/2 h-screen p-7 pt-15">
+                    <div class="h-1/6">
+                        
+                    </div>
                     <div>
                         <h1 class="text-center p-4 font-bold">
                             What is WTM Algiers ?
@@ -72,8 +77,81 @@ const About = () => {
                     
                 </div>
             </div>
-            <img class="lower-border" src="\src\assets\About\lower-border.png" alt="..." />
+            <img class="lower-border visible sm:hidden" src="\src\assets\About\lower-border.png" alt="..." /> */}
 
+            <img class="upper-border hidden sm:block" src="\src\assets\About\upper-border.png" alt="..." />
+            <div class=" hidden sm:flex flex-row items-center  h-screen">
+
+                <div class="w-1/2 h-screen p-7 pb-15">
+                    <div class="flex items-center justify-center p-4" >
+                        <img src="\src\assets\About\about-upper-img.png" alt="Boo!" />
+                    </div>
+                    <div class="hidden sm:block">
+                        <h1 class="text-center p-4 font-bold">
+                            What is IWD?
+                        </h1>
+                        <p class="text-justify p-4 pb-0">
+                            Iwd stands for international women's day, an annual event organized by all Women Techmakers chapters in the world to highlight the contributions of women in tech fields to educate and inspire our community.
+                        </p>                    
+                        <p class="text-justify p-4 pt-0">
+                            Last year's theme was ‘progress not perfection’ but this year's is ‘DareToBe’ to celebrate the woman who challenges their fear to improve and demonstrate their existence in the STEM world.
+                        </p>
+                    </div>
+                </div>
+                
+                <img class="about-element hidden sm:block" src="\src\assets\About\about-element.png" alt="..." />
+                
+                <div class="w-1/2 h-screen flex flex-center justify center p-7 pt-15">
+                    <div class="w-fit">
+                        <div class="h-1/6 hidden sm:block">
+                            
+                        </div>
+                        <div class="hidden sm:block">
+                            <h1 class="text-center p-4 font-bold">
+                                What is WTM Algiers ?
+                            </h1>
+                            <p class="text-justify p-4">
+                                Women Techmakers is a program created by Google, that encourages women to integrate, pursue, and outshine in technology careers through their Google Developers Groups communities dispersed worldwide. 
+                                Women Techmakers Algiers (WTM Algiers) is part of this international community that helps empower and improve the enrollment of women in the STEM field.
+                            </p>
+                        </div>
+                        <div class="flex items-center justify-center p-4" >
+                            <img src="\src\assets\About\about-lower-img.png" alt="Boo!" />
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <img class="lower-border hidden sm:block" src="\src\assets\About\lower-border.png" alt="..." />
+            <div class="  flex flex-col justify-center  sm:hidden">
+                <div class="">
+                    <h1 class="text-center p-4 font-bold">
+                    What is WTM Algiers ?
+                    </h1>
+                    <p class="text-justify p-4">
+                        Women Techmakers is a program created by Google, that encourages women to integrate, pursue, and outshine in technology careers through their Google Developers Groups communities dispersed worldwide. 
+                        Women Techmakers Algiers (WTM Algiers) is part of this international community that helps empower and improve the enrollment of women in the STEM field.
+                    </p>
+                    <div class="flex items-center justify-center p-4" >
+                        <img src="\src\assets\About\about-upper-img.png" alt="Boo!" />
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-center p-4 font-bold">
+                        What is IWD?
+                    </h1>
+                    <p class="text-justify p-4 pb-0">
+                        Iwd stands for international women's day, an annual event organized by all Women Techmakers chapters in the world to highlight the contributions of women in tech fields to educate and inspire our community.
+                    </p>                    
+                    <p class="text-justify p-4 pt-0">
+                        Last year's theme was ‘progress not perfection’ but this year's is ‘DareToBe’ to celebrate the woman who challenges their fear to improve and demonstrate their existence in the STEM world.
+                    </p>
+                    <div class="flex items-center justify-center p-4" >
+                        <img src="\src\assets\About\about-lower-img.png" alt="Boo!" />
+                    </div>
+                </div>
+            </div>
         </section>
     )
 }

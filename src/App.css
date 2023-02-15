@@ -9,16 +9,24 @@
 .upper-border {
     position: absolute;
     left: 49%;
+    top: 44px;
 }
 
 .lower-border {
     position: absolute;
     right: 49.5%;
-    
+    margin-bottom: 44px;
 }
 
 .about-element {
     position: absolute;
     right: 46%;
-    top: 78%;
+    top: 82%;
+}
+
+@media (min-width: 540px){
+    .cntnr {
+        display: grid;
+        grid-column: 1;
+    }
 }

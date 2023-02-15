@@ -10,7 +10,7 @@ const Container = ({ paragraph, image, reverse, first }) => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center lg:flex-row 2xl:flex-row lg:gap-24 2xl:gap-28 lg:px-[106px] 2xl:px-[160px] mt-[51px]">
+    <div className="flex flex-col items-center lg:flex-row 2xl:flex-row lg:gap-24 2xl:gap-28 container mt-[51px]">
       <div
         className={` relative w-[350px] lg:w-[569px] 2xl:w-[854.44px] ${
           reverse && "lg:order-last 2xl:order-last"

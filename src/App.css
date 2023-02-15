@@ -6,6 +6,9 @@
     @apply w-11/12 mx-auto
 }
 
+.footer-social-icons {
+    @apply w-[55px] h-[55px] lg:w-[70px] lg:h-[70px] 2xl:w-[85px] 2xl:h-[85px] hover:scale-110
+}
 /*
  .footeranimation img
  {

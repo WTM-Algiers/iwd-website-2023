@@ -1,60 +1,91 @@
-import cursor from "../../assets/Footer/cursor.png"
-import fb from "../../assets/logos/facebook.png"
-import insta from "../../assets/logos/instagram.png"
-import linkedin from "../../assets/logos/linkedin.png"
-import twitter from "../../assets/logos/twitter.png"
+import cursor from "../../assets/Footer/cursor.png";
+import fb from "../../assets/logos/facebook.png";
+import insta from "../../assets/logos/instagram.png";
+import linkedin from "../../assets/logos/linkedin.png";
+import twitter from "../../assets/logos/twitter.png";
 
-import GDG from "../../assets/logos/gdg-algiers.png"
-import WTM from "../../assets/logos/wtm-algiers.png"
-
+import GDG from "../../assets/logos/gdg-algiers.png";
+import WTM from "../../assets/logos/wtm-algiers.png";
 
 const Footer = () => {
-    return (
-        <section>
-        <div className="flex flex-col items-center justify-end w-full h-screen ">
-            <div className=" flex items-center justify-center w-full  text-center  font-bold text-[50px] p-12  mb-12  lg:text-[70px] lg:h-[30%] 2xl:h-[35%] bg-gradient-to-l  text-iwd-white from-iwd-purple to-iwd-blue ">
-                    Still have a question  ? 
-             </div>
-
-              <div className="footeranimation flex flex-col items-end mb-10 lg:mb-16 mt-3 space-y-0 relative">
-                       <p className=" font-PTsans font-bold text-[30px] lg:text-[45px] px-8  "> Contact us </p>
-                       <img src={cursor} className="w-5 lg:w-8 absolute top-8 right-3 lg:top-10 lg:right-1 2xl:right-0 " alt="" />
-              </div>
-
-                    <div className="grid grid-cols-2 gap-20 p-[2%] lg:flex lg:flex-row justify-center items-center lg:w-full lg:px-20 mb-[12%] lg:mb-16 lg:space-x-20 ">
-                        <a href="https://www.instagram.com/wtm_algiers/" target="_blank" >
-                        <img src={insta} className="w-[55px] h-[55px] lg:w-[70px] lg:h-[70px] 2xl:w-[85px] 2xl:h-[85px] hover:scale-110 " alt="" />
-                        </a>
-                        
-                        <a href="https://web.facebook.com/WomenTechmakersAlgiers" target="_blank">
-                        <img src={fb} className="w-[55px] h-[55px] lg:w-[70px] lg:h-[70px] 2xl:w-[85px] 2xl:h-[85px] hover:scale-110  " alt="" />
-                        </a>
-                       
-                       <a href="https://www.linkedin.com/company/wtm-algiers/" target="_blank">
-                       <img src={linkedin} className="w-[55px] h-[55px] lg:w-[70px] lg:h-[70px] 2xl:w-[85px] 2xl:h-[85px] hover:scale-110  " alt="" />
-                       </a>
-                       
-                       <a href="https://twitter.com/AlgiersWTM" target="_blank">
-                       <img src={twitter} className="w-[55px] h-[55px] lg:w-[70px] lg:h-[70px] 2xl:w-[85px] 2xl:h-[85px] hover:scale-110  "  alt="" />
-                       </a>
-                        
-                    </div>
-
-                    <div className="flex flex-row justify-center gap-9 items-center border-t-2 border-iwd-gray border-opacity-30  w-full lg:justify-between py-[10%] px-2 lg:py-8 lg:px-24 2xl:py-12 ">
-                    
-                      <img src={WTM} className="lg:p-1/3 w-[100px] h-[20px] lg:w-[170px] lg:h-[30px]  " alt="" />
-                                             
-                        <p className="lg:p-1/3  text-[10px] lg:text-[15px] 2xl:text-[20px]">
-                           © 2023 WTM Algiers All rights reserved
-                        </p>
-                        <img src={GDG} className=" lg:p-1/3  w-[90px] h-[15px] lg:w-[170px] lg:h-[22px] " alt="" />
-                    </div>
-        
-        
+  return (
+    <section>
+      <div className="flex flex-col items-center justify-end w-full lg:h-screen">
+        <div className="flex items-center justify-center w-full font-bold text-[50px] p-12  mb-12  lg:text-[70px] lg:h-[30%] 2xl:h-[35%] bg-gradient-to-l text-iwd-white from-iwd-purple to-iwd-blue">
+          <p className="text-center">Still have a question ?</p>
         </div>
-         
-        </section>
-    )
-}
 
-export default Footer
+        <div className="footeranimation flex flex-col items-end mb-10 lg:mb-16 mt-3 space-y-0 relative">
+          <p className="font-bold text-[30px] lg:text-[45px] px-8  ">
+            {" "}
+            Contact us{" "}
+          </p>
+          <img
+            src={cursor}
+            className="w-5 lg:w-8 absolute top-8 right-3 lg:top-10 lg:right-1 2xl:right-0 "
+            alt="icon"
+          />
+        </div>
+
+        <div className="grid grid-cols-2 gap-20 p-[2%] lg:flex lg:flex-row justify-center items-center lg:w-full lg:px-20 mb-[12%] lg:mb-16 lg:space-x-20 ">
+          <a href="https://www.instagram.com/wtm_algiers/" target="_blank">
+            <img
+              src={insta}
+              className="footer-social-icons hover:scale-110 "
+              alt="WTM Algiers instagram"
+            />
+          </a>
+
+          <a
+            href="https://web.facebook.com/WomenTechmakersAlgiers"
+            target="_blank"
+          >
+            <img
+              src={fb}
+              className="footer-social-icons"
+              alt="WTM Algiers facebook"
+            />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/company/wtm-algiers/"
+            target="_blank"
+          >
+            <img
+              src={linkedin}
+              className="footer-social-icons"
+              alt="WTM Algiers Linkedin"
+            />
+          </a>
+
+          <a href="https://twitter.com/AlgiersWTM" target="_blank">
+            <img
+              src={twitter}
+              className="footer-social-icons"
+              alt="WTM Algiers Twitter"
+            />
+          </a>
+        </div>
+
+        <div className="flex flex-row justify-center gap-9 items-center border-t-2 border-iwd-gray border-opacity-30  w-full lg:justify-between py-[10%] px-2 lg:py-8 lg:px-24 2xl:py-12 ">
+          <img
+            src={WTM}
+            className="lg:p-1/3 w-[100px] h-[20px] lg:w-[170px] lg:h-[30px]  "
+            alt=""
+          />
+
+          <p className="lg:p-1/3 text-[10px] lg:text-[15px] 2xl:text-[20px]">
+            © 2023 WTM Algiers All rights reserved
+          </p>
+          <img
+            src={GDG}
+            className="lg:p-1/3 w-[90px] h-[15px] lg:w-[170px] lg:h-[22px]"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Footer;

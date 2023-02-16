@@ -15,8 +15,7 @@ const PreviousEditions = () => {
       <div className="relative bg-gradient-to-r from-iwd-blue to-iwd-purple w-full mt-[52px]">
         <img
           className="absolute hidden lg:flex 2xl:flex lg:w-[136px] lg:h-[128.45px] w-[204px] h-[192.68px] -rotate-12 top-[-75px]"
-          src={star}
-        />
+          src={star}/>
         <p className="text-iwd-white font-normal text-[32px] lg:text-[27px] 2xl:text-[40px] text-center px-10 py-24 lg:px-20 lg:py-10 2xl:px-[120px] 2xl:py-16 leading-[64px] lg:leading-10  2xl:leading-[60px]">
           International Women’s Day is WTM Algiers’ biggest event, besides many
           others and besides projects, our organizers always put their hearts
@@ -29,7 +28,7 @@ const PreviousEditions = () => {
 
       <Container
         paragraph={
-          "The third edition of International Women's Day (IWD20), which took place in March 2020 was a huge success. It was an opportunity for women interested in technology and development to meet, discuss and learn about innovation and new products through various conferences, workshops, and panels. However, the success of this edition is due to the Ideathon, in which they learned about an important subject which was “Women’s online safety” and brought together brilliant ideas to make the experience of women using the internet more comfortable and safer at the same time."
+          "The third edition of International Women's Day (IWD20), which took place in March 2020 was a huge success. It was an opportunity for women interested in technology and development to meet, discuss and learn about innovation and new products through various conferences, workshops, and panels. However, the success of this edition is due to the Ideathon, in which they learned about an important subject which was “Women’s online safety” and brought together brilliant ideas to make the experience of women using the internet more comfortable and safer at the same time ."
         }
         reverse={true}
         first={true}
@@ -39,7 +38,7 @@ const PreviousEditions = () => {
       <BorderLeft word={"IWD 21"} />
 
       <Container
-        paragraph={`For its fourth edition, Women Techmakers Algiers has brought an innovative touch to the IWD 2021, whose duration has been for the first time spread over a week full of interesting talks which were held on our discord server in addition to the fruitful on-set workshop sessions that aims to give a new vision on contemporary technologies, it was a great chance to the female community interested in development and technology, to meet, train and debate on different subjects, as well as to discuss the news and technological innovations through the theme "Courage to create". `}
+        paragraph={`For its fourth edition, Women Techmakers Algiers has brought an innovative touch to the IWD 2021, whose duration has been for the first time spread over a week full of interesting talks which were held on our discord server in addition to the fruitful on-set workshop sessions that aims to give a new vision on contemporary technologies, it was a great chance to the female community interested in development and technology, to meet, train and debate on different subjects, as well as to discuss the news and technological innovations through the theme "Courage to create" . `}
         reverse={false}
         first={false}
         image={img2}
@@ -48,7 +47,7 @@ const PreviousEditions = () => {
       <BorderRight word={"IWD 22"} />
       <Container
         paragraph={
-          "For its fifth edition and during two weekends, Women Techmackers Algiers celebrated women in tech and STEM in general for their contributions and achievement under the theme “Progress not perfection “, the first weekend we had the chance to hold incredible talks and during the second weekend an impressive hackathon with general theme striving for well-being we were able to witness some excellent work done by the different teams"
+          "For its fifth edition and during two weekends, Women Techmackers Algiers celebrated women in tech and STEM in general for their contributions and achievement under the theme “Progress not perfection “, the first weekend we had the chance to hold incredible talks and during the second weekend an impressive hackathon with general theme striving for well-being we were able to witness some excellent work done by the different teams ."
         }
         reverse={true}
         first={false}

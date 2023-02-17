@@ -1,6 +1,6 @@
 
 
-import pic1 from "../../assets/Sponsors/curve.png" ;
+import pic1 from "../../assets/Workshops/WorkshopsPic.png" ;
 
 export const workshopsData = [
         {   description : "Front end workshop 1 " , 

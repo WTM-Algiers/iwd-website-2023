@@ -44,7 +44,6 @@ const Workshops = () => {
                                     <Swiper
                                     ref={swiperRef}
                                     modules={[Pagination, Navigation]}
-                                    
                                     pagination={true}
                                     className=" flex justify-center items-center w-96 lg:w-[450px] "
                                     >

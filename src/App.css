@@ -5,28 +5,6 @@
 .container {
     @apply w-11/12 mx-auto
 }
-
-/* .upper-border {
-    position: absolute;
-    left: 49%;
-    top: 44px;
+.paragraph-sizing {
+    @apply text-base leading-[24px] lg:leading-[32px] lg:text-xl 2xl:leading-[48px] 2xl:text-3xl
 }
-
-.lower-border {
-    position: absolute;
-    right: 49.5%;
-    margin-bottom: 44px;
-}
-
-.about-element {
-    position: absolute;
-    right: 46%;
-    top: 82%;
-}
-
-@media (min-width: 540px){
-    .cntnr {
-        display: grid;
-        grid-column: 1;
-    }
-} */

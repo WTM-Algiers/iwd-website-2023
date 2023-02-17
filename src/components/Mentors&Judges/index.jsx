@@ -2,7 +2,7 @@ import CardMentor from './card'
 const MentorsJudges = () => {
     return (
         <section className=" h-screen">
-            <center className="visible text-3xl font-bold lg:hidden pb-8">Mentors & Judges</center>
+            <center className="block text-3xl font-bold lg:hidden pb-8">Mentors & Judges</center>
             <div className="absolute"><CardMentor/></div>
             <div className="flex flex-row">
             <div className="bg-[#4EA2F7] w-1/4 h-screen"></div>

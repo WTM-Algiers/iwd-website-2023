@@ -1,7 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .container {
     @apply w-11/12 mx-auto
+}
+
+.swiper-pagination-bullet-isActive {
+    background-color: rgb(230, 230, 230);
+    width: 5rem;
+    height: 1rem;
+    border-radius: .5rem;
+}
+
+.swiper-pagination-bullet-isPrev {
+    background-color: rgb(0, 0, 0);
+    width: 5rem;
+    height: 1rem;
+    border-radius: .5rem;
+}
+
+.swiper-pagination-bullet-isNext {
+    background-color: rgb(230, 230, 230);
+    width: 5rem;
+    height: 1rem;
+    border-radius: .5rem;
 }

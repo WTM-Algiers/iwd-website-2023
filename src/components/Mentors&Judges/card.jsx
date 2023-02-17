@@ -4,6 +4,7 @@ import titlecover from '../../assets/Mentors&Judges/title-cover.png'
 import {mentorsjudges} from'./infos'
 import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from 'swiper';
 import 'swiper/css/pagination';
 import 'swiper/css';
 
@@ -20,10 +21,10 @@ const CardMentor = () => {
          <div className="w-8/12 lg:w-10/12 2xl:w-10/12">
     
           <Swiper
+          modules={[Navigation, Pagination]}
           ref={swiperRef}
-          spaceBetween={50}
           slidesPerView={1}
-          pagination={{el: '.swiper-pagination', clickable:true}}
+          pagination={{el: 'swiper-pagination', clickable:true, bulletClass: `swiper-pagination-bullet swiper-pagination-testClass`}}
     
           >
             {mentorsjudges.map((prs, idx) => {
@@ -45,6 +46,7 @@ const CardMentor = () => {
                     <div className="font-bold text-xl lg:text-4xl 2xl:text-6xl">{prs.name}</div>
                     <div className="text-sm text-center py-4 lg:py-0 lg:text-left text-iwd-gray lg:text-xl 2xl:text-3xl font-thin ">{prs.description}</div>
                 </div>
+               
              </div>
                     
             
@@ -55,6 +57,7 @@ const CardMentor = () => {
           </Swiper>
        
           </div>
+          
 
           <img src={swiperight} onClick={() => {
             swiperRef.current.swiper.slideNext();

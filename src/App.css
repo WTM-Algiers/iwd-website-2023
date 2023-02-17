@@ -6,7 +6,7 @@
     @apply w-11/12 mx-auto
 }
 
-.upper-border {
+/* .upper-border {
     position: absolute;
     left: 49%;
     top: 44px;
@@ -29,4 +29,4 @@
         display: grid;
         grid-column: 1;
     }
-}
+} */

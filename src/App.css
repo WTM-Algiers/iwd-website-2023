@@ -9,6 +9,19 @@
     @apply text-base leading-[24px] lg:leading-[32px] lg:text-xl 2xl:leading-[48px] 2xl:text-3xl
 }
 
+
+.swiper-pagination-bullet {
+    background-color: black !important ; 
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    border-radius: 50% !important;
+} 
+
+.swiper-pagination-bullet-active{
+    width: 1.7rem !important;
+    height: 1.7rem !important;   
+}
+
 .footer-social-icons {
     @apply w-[55px] h-[55px] lg:w-[70px] lg:h-[70px] 2xl:w-[85px] 2xl:h-[85px] hover:scale-110
 }

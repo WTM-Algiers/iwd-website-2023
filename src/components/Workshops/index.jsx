@@ -16,7 +16,7 @@ const Workshops = () => {
   const swiperRef = useRef(null);
 
   return (
-    <section>
+    <section className="overflow-x-hidden">
       <div className="h-[55vh] lg:h-screen w-full flex flex-col items-center justify-center lg:justify-start mb-20">
         <div>
           <h1 className="font-bold text-3xl pb-40 lg:pb-0 lg:text-7xl 2xl:text-8xl">

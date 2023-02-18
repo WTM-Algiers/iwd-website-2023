@@ -5,6 +5,9 @@
 .container {
     @apply w-11/12 mx-auto
 }
+.paragraph-sizing {
+    @apply text-base leading-[24px] lg:leading-[32px] lg:text-xl 2xl:leading-[48px] 2xl:text-3xl
+}
 
 
 .swiper-pagination-bullet {
@@ -19,6 +22,9 @@
     height: 1.7rem !important;   
 }
 
+.footer-social-icons {
+    @apply w-[55px] h-[55px] lg:w-[70px] lg:h-[70px] 2xl:w-[85px] 2xl:h-[85px] hover:scale-110
+}
 /*
  .footeranimation img
  {

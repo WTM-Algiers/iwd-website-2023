@@ -38,25 +38,33 @@ className="font-extrabold bg-clip-text text-transparent lg:text-8xl  text-4xl bg
     <div className="grid grid-cols-2 gap-2 p-[2%] place-items-center lg:flex lg:flex-row lg:justify-center lg:items-center lg:w-full lg:px-20 mb-[12%] lg:mb-16 lg:space-x-20 w-full">
       <div className="relative  w-[50%] my-3 lg:w-[25%] lg:h-[25%]">
         <img src={timer} alt="timer" className="" />
-        <p className="absolute z-10 bottom-14 left-12">00</p>
-        <p className="absolute z-10 bottom-5 left-12">Day</p>
+        <div className="absolute z-10 flex flex-col justify-center items-center bottom-2 left-6 lg:bottom-8 lg:left-11">
+        <div className="">00</div>
+        <div className="">Days</div>
+        </div>
         </div>
         <div className="relative w-[50%] lg:w-[25%] lg:h-[25%]">
         <img src={timer} alt="timer" className="" />
-        <p className="absolute z-10 bottom-14 left-12">00</p>
-        <p className="absolute z-10 bottom-5 left-12">Hours</p>
+        <div className="absolute z-10 flex flex-col justify-center items-center bottom-2 left-6 lg:bottom-8 lg:left-11">
+        <div className="">00</div>
+        <div className="">Hours</div>
+        </div>
         </div>
 
 
         <div className="relative w-[50%] lg:w-[25%] lg:h-[25%]">
   <img src={timer} alt="timer"/>
-  <p className="absolute z-10 bottom-14 left-12">00</p>
-  <p className="absolute z-10 bottom-5 left-11">Minutes</p>
+  <div className="absolute z-10 flex flex-col justify-center items-center bottom-2 left-4 lg:bottom-8 lg:left-9">
+        <div className="">00</div>
+        <div className="">Minutes</div>
+        </div>
   </div>
   <div className="relative w-[50%] lg:w-[25%] lg:h-[25%]">
   <img src={timer} alt="timer"/>
-  <p className="absolute z-10 bottom-14 left-12">00</p>
-  <p className="absolute z-10 bottom-5 left-11">Seconds</p>
+  <div className="absolute z-10 flex flex-col justify-center items-center bottom-2 left-4 lg:bottom-8 lg:left-9">
+        <div className="">00</div>
+        <div className="">Seconds</div>
+        </div>
   </div>
 </div>
  

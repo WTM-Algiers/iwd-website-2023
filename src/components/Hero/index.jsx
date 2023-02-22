@@ -11,17 +11,19 @@ const Hero = () => {
 <Navbar/>
   </div>
 
-  <div className="container">
+<div align="center" className="">
+<div className="container">
 
-<div className="flex justify-end flex py-60 space-x-20"> 
+<div className="flex lg:flex-row flex-col justify-center items-center lg:py-64 py-36 lg:space-x-20 space-y-20"> 
   <div>
-    <span className="fontFamily-sans-serif text-6xl">Dare To Be </span>
-    <span className="text-transparent text-8xl bg-clip-text bg-gradient-to-r from-iwd-blue by-iwd-green to-iwd-green">
+    <span className="fontFamily-sans-serif lg:text-6xl text-2xl">Dare To Be </span>
+    <h1 
+className="font-extrabold bg-clip-text text-transparent lg:text-8xl  text-4xl bg-gradient-to-r from-iwd-blue to-iwd-pink">
 	 Creative!
-</span>
-    </div> 
-  <div>
-    <img src={heroImg} alt="hero image" className=""></img>
+</h1>
+    </div > 
+  <div className="flex justify-center items-center">
+    <img src={heroImg} alt="hero image" className="lg:w-[70%] w-[80%]"></img>
   </div>
   
   </div> 
@@ -33,21 +35,35 @@ const Hero = () => {
 </div>
   <div className="container">
 
-    <div className="flex flex-wrap justify-evenly py-20 flex-wrap max-width">
-      <div className="flex">
-        <img src={timer} alt="timer" width={"100%"} />
-  <img src={timer} alt="timer" width={"100%"} />
+    <div className="grid grid-cols-2 gap-2 p-[2%] place-items-center lg:flex lg:flex-row lg:justify-center lg:items-center lg:w-full lg:px-20 mb-[12%] lg:mb-16 lg:space-x-20 w-full">
+      <div className="relative  w-[50%] my-3 lg:w-[25%] lg:h-[25%]">
+        <img src={timer} alt="timer" className="" />
+        <p className="absolute z-10 bottom-14 left-12">00</p>
+        <p className="absolute z-10 bottom-5 left-12">Day</p>
+        </div>
+        <div className="relative w-[50%] lg:w-[25%] lg:h-[25%]">
+        <img src={timer} alt="timer" className="" />
+        <p className="absolute z-10 bottom-14 left-12">00</p>
+        <p className="absolute z-10 bottom-5 left-12">Hours</p>
+        </div>
+
+
+        <div className="relative w-[50%] lg:w-[25%] lg:h-[25%]">
+  <img src={timer} alt="timer"/>
+  <p className="absolute z-10 bottom-14 left-12">00</p>
+  <p className="absolute z-10 bottom-5 left-11">Minutes</p>
   </div>
-  <div className="flex"><img src={timer} alt="timer" width={"100%"} />
-  <img src={timer} alt="timer" width={"100%"} /></div>
-  
+  <div className="relative w-[50%] lg:w-[25%] lg:h-[25%]">
+  <img src={timer} alt="timer"/>
+  <p className="absolute z-10 bottom-14 left-12">00</p>
+  <p className="absolute z-10 bottom-5 left-11">Seconds</p>
+  </div>
 </div>
  
 
   </div>
-<>
 
-</>
+</div>
   </section>
   );
 

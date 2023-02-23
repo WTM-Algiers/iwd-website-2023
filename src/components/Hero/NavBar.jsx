@@ -17,11 +17,11 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="bg-iwd-white top-0 w-screen z-20 fixed">
+    <div className="bg-iwd-white  drop-shadow top-0 w-screen z-20 fixed">
       <div className="container flex py-[38px] md:py-[2vw] justify-between align-center items-center">
         <img src={wtmLogo} alt="WTM Logo" className="w-[9rem]" />
 
-        <ul className="list-none sm:flex hidden justify-center gap-x-5 items-center">
+        <ul className="list-none md:flex hidden justify-center gap-x-5 items-center">
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
@@ -30,7 +30,14 @@ function Navbar() {
               }`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <div className="relative">
+                <a href={`#${nav.id}`}>{nav.title}</a>
+                <div
+                  className={`h-[1px] w-[${
+                    nav.title.length / 3
+                  }px] absolute bottom-0 left-0 bg-iwd-dark`}
+                ></div>
+              </div>
             </li>
           ))}
           <button className="bg-iwd-dark px-4 py-1 text-iwd-white rounded-full">
@@ -38,19 +45,22 @@ function Navbar() {
           </button>
         </ul>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center">
-          <div className="flex flex-col gap-2">
-            <div className="h-[2px] w-9 bg-iwd-black"></div>{" "}
-            <div className="h-[2px] w-9 bg-iwd-black"></div>
-            <div className="h-[2px] w-9 bg-iwd-black"></div>
+        <div className="md:hidden flex flex-1 justify-end items-center">
+          <div
+            className="flex flex-col gap-2 "
+            onClick={() => setToggle(!toggle)}
+          >
+            <div className="h-[2px] w-9 bg-iwd-dark"></div>
+            <div className="h-[2px] w-9 bg-iwd-dark"></div>
+            <div className="h-[2px] w-9 bg-iwd-dark"></div>
           </div>
 
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+            } p-6 bg-iwd-white absolute top-20 right-0 mx-4 my-2 min-w-[140px] h-[100vh]`}
           >
-            <ul className="list-none flex justify-end items-start flex-1 flex-col">
+            <ul className="flex justify-start flex-1 flex-col">
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}

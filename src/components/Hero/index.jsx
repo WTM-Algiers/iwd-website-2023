@@ -16,7 +16,7 @@ const Hero = () => {
             <div className="flex flex-col justify-center items-center ">
               <p className="md:text-left md:leading-[8.126934984520123vw] font-extrabold md:text-[6.5015479876160995vw] text-5xl">
                 Dare to <br /> be{" "}
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-iwd-blue to-iwd-pink">
+                <span class="text-transparent animate-bounce bg-clip-text bg-gradient-to-r from-iwd-blue to-iwd-pink">
                   Creative!
                 </span>
               </p>
@@ -43,20 +43,20 @@ const Hero = () => {
           <img src={arrowRight} alt="point-right" className=" w-[20vw]" />
         </div>
         <div className="container">
-          <div className="grid grid-cols-2 gap-2 p-[2%] place-items-center md:flex md:flex-row md:justify-center md:items-center md:w-full md:px-20 mb-[12%] md:mb-16 md:space-x-20 w-full">
-            <div className="bg-[url('./assets/Hero/countDown-img.png')] w-[12vw] aspect-[1.29] bg-cover flex flex-col justify-center items-center ">
+          <div className="grid grid-cols-2 gap-2 p-[2%] place-items-center md:flex md:flex-row md:justify-center md:items-center md:w-full md:px-20 mb-[12%] md:mb-16 md:space-x-20 w-full mt-10 space-y-5">
+            <div className="bg-[url('./assets/Hero/countDown-img.png')] w-[15vw] aspect-[1.29] bg-cover flex flex-col justify-center items-center ">
               <div className="">00</div>
               <div className="">Days</div>
             </div>
-            <div className="bg-[url('./assets/Hero/countDown-img.png')] w-[12vw] aspect-[1.29] bg-cover flex flex-col justify-center items-center ">
+            <div className="bg-[url('./assets/Hero/countDown-img.png')] w-[15vw] aspect-[1.29] bg-cover flex flex-col justify-center items-center ">
               <div className="">00</div>
               <div className="">Hours</div>
             </div>
-            <div className="bg-[url('./assets/Hero/countDown-img.png')] w-[12vw] aspect-[1.29] bg-cover flex flex-col justify-center items-center ">
+            <div className="bg-[url('./assets/Hero/countDown-img.png')] w-[15vw]   aspect-[1.29] bg-cover flex flex-col justify-center items-center ">
               <div className="">00</div>
               <div className="">Minutes</div>
             </div>
-            <div className="bg-[url('./assets/Hero/countDown-img.png')] w-[12vw] aspect-[1.29] bg-cover flex flex-col justify-center items-center ">
+            <div className="bg-[url('./assets/Hero/countDown-img.png')] w-[15vw] aspect-[1.29] bg-cover flex flex-col justify-center items-center ">
               <div className="">00</div>
               <div className="">Seconds</div>
             </div>

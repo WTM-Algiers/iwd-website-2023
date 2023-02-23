@@ -12,6 +12,11 @@
 .footer-social-icons {
     @apply w-[55px] h-[55px] lg:w-[70px] lg:h-[70px] 2xl:w-[85px] 2xl:h-[85px] hover:scale-110
 }
+.hardTextClip {
+    -webkit-background-clip: text; 
+     -moz-background-clip: text; 
+      background-clip: text;
+    }
 /*
  .footeranimation img
  {

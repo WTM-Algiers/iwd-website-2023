@@ -11,7 +11,8 @@ module.exports = {
       "iwd-white": "#ffffff",
       "iwd-pink": "#F2BFA0",
       "iwd-blue": "#79A0EF",
-      "iwd-purple": "#8653ed"
+      "iwd-purple": "#8653ed",
+      "transparent":"transparent"
 
     }, 
     screens: {

@@ -17,12 +17,12 @@ function Navbar(){ //set links here
       const [toggle, setToggle] = useState(false);
     
       return (
-        <div className="bg-iwd-white w-screen z-20 fixed">
+        <div className="bg-iwd-white top-0 w-screen z-20 fixed">
   
-        <div className="container flex py-6 justify-between align-center items-center">
+        <div className="container flex py-[38px] md:py-[2vw] justify-between align-center items-center">
          <img src={wtmLogo} alt="WTM Logo" className="w-[9rem]" />
    
-   <ul className="list-none sm:flex hidden justify-center gap-x-8 items-center">
+   <ul className="list-none sm:flex hidden justify-center gap-x-5 items-center">
      {navLinks.map((nav, index) => (
        <li
          key={nav.id}

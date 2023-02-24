@@ -22,10 +22,10 @@ const CounterContainer = ({ countDownLimit }) => {
   return (
     <div className="container">
       <div className="grid grid-cols-2 gap-2 p-[2%] place-items-center md:flex md:flex-row md:justify-center md:items-center md:w-full md:px-20 mb-[12%] md:mb-16 md:space-x-20 w-full mt-8 space-y-5">
-        <CounterCard time="Days" timeLeft={remainingTime.days}/>
-        <CounterCard time="Hours" timeLeft={remainingTime.hours}/>
-        <CounterCard time="Minutes" timeLeft={remainingTime.minutes}/>
-        <CounterCard time="Seconds" timeLeft={remainingTime.seconds}/>
+        <CounterCard time="Days" timeLeft={remainingTime.days} />
+        <CounterCard time="Hours" timeLeft={remainingTime.hours} />
+        <CounterCard time="Minutes" timeLeft={remainingTime.minutes} />
+        <CounterCard time="Seconds" timeLeft={remainingTime.seconds} />
       </div>
     </div>
   );

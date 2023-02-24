@@ -1,0 +1,9 @@
+[
+  { "title": "Home", "redirect": "#home" },
+  { "title": "About", "redirect": "#about" },
+  { "title": "Previous", "redirect": "#previous" },
+  { "title": "Agenda", "redirect": "#agenda" },
+  { "title": "Mentors & Judges", "redirect": "#mentorsJudges" },
+  { "title": "Workshops", "redirect": "#workshops" },
+  { "title": "Sponsors", "redirect": "#sponsors" }
+]

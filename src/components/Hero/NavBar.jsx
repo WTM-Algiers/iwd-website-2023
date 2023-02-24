@@ -1,37 +1,30 @@
 import { useState } from "react";
-
 import wtmLogo from "../../assets/logos/wtm-algiers.png";
+import navLinks from "./navLinks.json";
 function Navbar() {
-  //set links here
-  let navLinks = [
-    { title: "Home", id: "/" },
-    { title: "About", id: "/" },
-    { title: "Previous", id: "/" },
-    { title: "Agenda", id: "/" },
-    { title: "Mentors & Judges", id: "/" },
-    { title: "Workshops", id: "/" },
-    { title: "Sponsors", id: "/" },
-  ];
-
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="bg-iwd-white  drop-shadow top-0 w-screen z-20 fixed">
-      <div className="container flex py-[38px] md:py-[2vw] justify-between align-center items-center">
+    <header className="bg-iwd-white top-0 w-screen z-20 fixed border-b-[1px] border-b-iwd-gray">
+      <div className="container flex py-[38px] md:py-[2.5vw] justify-between align-center items-center">
         <img src={wtmLogo} alt="WTM Logo" className="w-[9rem]" />
-
-        <ul className="list-none md:flex hidden justify-center gap-x-5 items-center">
+        <ul className="list-none lg:flex hidden justify-center gap-x-10 items-center 2xl:gap-x-12">
           {navLinks.map((nav, index) => (
             <li
-              key={nav.id}
+              key={index}
               className={`cursor-pointer text-[16px] ${
                 active === nav.title ? "text-white" : "text-dimWhite"
               }`}
               onClick={() => setActive(nav.title)}
             >
               <div className="relative">
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a
+                  href={`${nav.redirect}`}
+                  className="hover:text-iwd-green transform-all duration-500"
+                >
+                  {nav.title}
+                </a>
                 <div
                   className={`h-[1px] w-[${
                     nav.title.length / 3
@@ -40,43 +33,31 @@ function Navbar() {
               </div>
             </li>
           ))}
-          <button className="bg-iwd-dark px-4 py-1 text-iwd-white rounded-full">
+        </ul>
+        <div>
+          <button className="hidden lg:block bg-iwd-dark px-6 py-2 text-iwd-white rounded-full hover:bg-iwd-blue hover:text-bold transform-all duration-500">
             Register
           </button>
-        </ul>
+        </div>
 
-        <div className="md:hidden flex flex-1 justify-end items-center">
-          <div
-            className="flex flex-col gap-2 "
-            onClick={() => setToggle(!toggle)}
-          >
-            <div className="h-[2px] w-9 bg-iwd-dark"></div>
-            <div className="h-[2px] w-9 bg-iwd-dark"></div>
-            <div className="h-[2px] w-9 bg-iwd-dark"></div>
-          </div>
-
-          <div
-            className={`${
-              !toggle ? "hidden" : "flex"
-            } p-6 bg-iwd-white absolute top-20 right-0 mx-4 my-2 min-w-[140px] h-[100vh]`}
-          >
-            <ul className="flex justify-start flex-1 flex-col">
-              {navLinks.map((nav, index) => (
-                <li
-                  key={nav.id}
-                  className={`cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-dimWhite"
-                  } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-                  onClick={() => setActive(nav.title)}
-                >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
+        <div
+          className="flex flex-col gap-2 cursor-pointer lg:hidden"
+          onClick={() => setToggle(!toggle)}
+        >
+          <div className="h-[2px] w-9 bg-iwd-dark"></div>
+          <div className="h-[2px] w-9 bg-iwd-dark"></div>
+          <div className="h-[2px] w-9 bg-iwd-dark"></div>
         </div>
       </div>
-    </div>
+
+      <div className={`${toggle ? "h-[60vh] pt-4" : "h-0"} transform-all duration-700 overflow-hidden`}>
+        <ul className="flex flex-col items-center gap-8">
+          {navLinks.map((navLink, idx) => (
+            <a href={navLink.redirect} onClick={() => setToggle(false)}>{navLink.title}</a>
+          ))}
+        </ul>
+      </div>
+    </header>
   );
 }
 

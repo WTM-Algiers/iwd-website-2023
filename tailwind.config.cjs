@@ -11,6 +11,7 @@ module.exports = {
       "iwd-white": "#ffffff",
       "iwd-pink": "#F2BFA0",
       "iwd-blue": "#79A0EF",
+      "iwd-green": "#26efb4",
       "iwd-purple": "#8653ed",
       "transparent":"transparent"
 

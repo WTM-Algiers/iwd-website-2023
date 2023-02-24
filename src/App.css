@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 .container {
-    @apply w-11/12 mx-auto
+  @apply w-11/12 mx-auto;
 }
 .paragraph-sizing {
-    @apply text-base leading-[24px] lg:leading-[32px] lg:text-xl 2xl:leading-[48px] 2xl:text-3xl
+  @apply text-base leading-[24px] lg:leading-[32px] lg:text-xl 2xl:leading-[48px] 2xl:text-3xl;
 }
 
 
@@ -22,37 +22,104 @@
 }
 
 .footer-social-icons {
-    @apply w-[55px] h-[55px] lg:w-[70px] lg:h-[70px] 2xl:w-[85px] 2xl:h-[85px] hover:scale-110
+  @apply w-[55px] h-[55px] lg:w-[70px] lg:h-[70px] 2xl:w-[85px] 2xl:h-[85px] hover:scale-110;
 }
-/*
- .footeranimation img
- {
-animation:  fading .5s linear forwards , floating ease 4s infinite ;
- }
-@keyframes fading {
-    from{
-        opacity: 0;
-        transform: translateY(-40px);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
+.hardTextClip {
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
 }
-@keyframes floating {
-    0%{
-        transform: translate(0%,0%) rotate(360deg);
+
+.animated-text {
+  height: 75px;
+  line-height: 85px;
+  border: 0px solid #333;
+  overflow: hidden;
+}
+.animated-text span {
+  position: relative;
+  animation: textChange 8s ease infinite;
+}
+
+@media screen and (min-width: 1600px) {
+  .animated-text {
+    height: 105px;
+    line-height: 105px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .animated-text {
+    height: 50px;
+    line-height: 55px;
+  }
+}
+
+@keyframes textChange {
+  0%,
+  100% {
+    top: 0;
+  }
+  20% {
+    top: 0;
+  }
+  35% {
+    top: -56px;
+  }
+  70% {
+    top: -56px;
+  }
+  75% {
+    top: -108px;
+  }
+  95% {
+    top: -108px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  @keyframes textChange {
+    0%,
+    100% {
+      top: 0;
     }
-    25%{
-        transform: translate(15%,25%) rotate(360deg);
+    20% {
+      top: 0;
     }
-    50%{
-        transform: translate(20%,5%) rotate(360deg);
+    35% {
+      top: -88.5px;
     }
-    75%{
-        transform: translate(0%,15%) rotate(360deg);
+    70% {
+      top: -88.5px;
     }
-    100%{
-        transform: translate(0%,0%) rotate(360deg);
+    75% {
+      top: -180px;
     }
-}*/
+    95% {
+      top: -180px;
+    }
+  }
+}
+@media screen and (min-width: 1600px) {
+  @keyframes textChange {
+    0%,
+    100% {
+      top: 0;
+    }
+    20% {
+      top: 0;
+    }
+    35% {
+      top: -104.5px;
+    }
+    70% {
+      top: -104.5px;
+    }
+    75% {
+      top: -216.5px;
+    }
+    95% {
+      top: -216.5px;
+    }
+  }
+}

@@ -13,12 +13,19 @@ const Hero = () => {
         <div className="container ">
           <div className="flex md:flex-row flex-col items-center md:gap-36 gap-12 mt-36 sm:mt-32 md:mt-0 ">
             <div className="flex flex-col justify-center items-center md:items-start">
-              <p className="font-bold leading-[58px] text-5xl md:text-[6vw] lg:text-[6.5vw] md:text-left lg:leading-[104px] 2xl:leading-[150px]">
+              <h1 className="font-bold leading-[58px] text-5xl md:text-[6vw] lg:text-[6.5vw] md:text-left lg:leading-[104px] 2xl:leading-[150px]">
                 Dare to <br /> be{" "}
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-iwd-blue to-iwd-green">
-                  Creative!
-                </span>
-              </p>
+                <div className="inline-block animated-text animated-text-lg">
+                  <span class="text-transparent bg-clip-text bg-gradient-to-r from-iwd-blue to-iwd-green gradient-text">
+                    Creative!
+                    <br />
+                    Unique!
+                    <br />
+                    Developed!
+                    <br />
+                  </span>
+                </div>
+              </h1>
 
               <p className="my-6 text-iwd-gray text-[17px] leading-[24px] md:text-left lg:leading-[32px] 2xl:leading-[48px] 2xl:text-2xl">
                 How will you “Dare To Be” this International Women’s Day in wtm

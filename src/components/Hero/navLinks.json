@@ -2,7 +2,6 @@
   { "title": "Home", "redirect": "#home" },
   { "title": "About", "redirect": "#about" },
   { "title": "Previous", "redirect": "#previous" },
-  { "title": "Agenda", "redirect": "#agenda" },
-  { "title": "Mentors & Judges", "redirect": "#mentorsJudges" },
+  { "title": "FAQ", "redirect": "#faq" },
   { "title": "Contact us", "redirect": "#footer" }
 ]

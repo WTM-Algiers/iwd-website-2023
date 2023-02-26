@@ -3,7 +3,7 @@ import icon from "../../assets/FAQ/title-icon.png";
 import questions from "./faqs";
 const FAQ = () => {
   return (
-    <section className="w-full grid place-items-center my-[50px] ">
+    <section className="w-full grid place-items-center my-[50px]" id="faq">
       <div>
         <img
           className="w-[23px] h-[22px] ml-[40px] lg:w-[71px] lg:h-[68px] lg:ml-[90px] 2xl:w-[108px] 2xl:h-[102px] 2xl:ml-[150px]"

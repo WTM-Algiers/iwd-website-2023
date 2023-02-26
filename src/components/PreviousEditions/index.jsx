@@ -8,7 +8,7 @@ import star from "../../assets/icons/star.png";
 
 const PreviousEditions = () => {
   return (
-    <section>
+    <section id="previous">
       <p className=" mt-14 text-[28px] lg:text-[48px] 2xl:text-[72px] text-center font-bold">
         Previous Editions
       </p>
@@ -16,7 +16,7 @@ const PreviousEditions = () => {
         <img
           className="absolute hidden lg:flex 2xl:flex lg:w-[136px] lg:h-[128.45px] w-[204px] h-[192.68px] -rotate-12 top-[-75px]"
           src={star}/>
-        <p className="text-iwd-white font-normal text-[32px] lg:text-[27px] 2xl:text-[40px] text-center px-10 py-24 lg:px-20 lg:py-10 2xl:px-[120px] 2xl:py-16 leading-[64px] lg:leading-10  2xl:leading-[60px]">
+        <p className="text-iwd-white font-normal text-[27px] 2xl:text-[40px] text-center px-10 py-24 lg:px-20 lg:py-10 2xl:px-[120px] 2xl:py-16 leading-[64px] lg:leading-10  2xl:leading-[60px]">
           International Women’s Day is WTM Algiers’ biggest event, besides many
           others and besides projects, our organizers always put their hearts
           and souls to deliver the best version of this event each, each year,

@@ -1,7 +1,7 @@
 import CardMentor from "./card";
 const MentorsJudges = () => {
   return (
-    <section className="h-screen mt-8 mb-28 overflow-hidden">
+    <section className="h-screen mt-8 mb-28 overflow-hidden" id="mentorsJudges">
       <center className="block text-3xl font-bold lg:hidden pb-8">
         Mentors & Judges
       </center>

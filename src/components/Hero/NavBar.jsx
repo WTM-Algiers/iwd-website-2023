@@ -51,9 +51,9 @@ function Navbar() {
       </div>
 
       <div className={`${toggle ? "h-[60vh] pt-4" : "h-0"} transform-all duration-700 overflow-hidden`}>
-        <ul className="flex flex-col items-center gap-8">
+        <ul className="flex flex-col items-center gap-12">
           {navLinks.map((navLink, idx) => (
-            <a href={navLink.redirect} onClick={() => setToggle(false)}>{navLink.title}</a>
+            <a key={idx} href={navLink.redirect} onClick={() => setToggle(false)} className="text-lg">{navLink.title}</a>
           ))}
         </ul>
       </div>

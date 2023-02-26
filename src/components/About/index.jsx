@@ -1,8 +1,9 @@
 const About = () => {
   return (
-    <section className="about-cntnr w-screen flex flex-col sm:overflow-hidden justify-center items-center relative">
+    <section className="about-cntnr w-screen flex flex-col sm:overflow-hidden justify-center items-center relative" id="about">
       {/* Divs Horizontally */}
       <img
+        data-aos="fade-left"
         className="upper-border hidden sm:block absolute  sm:left-1/2 sm:top-10 sxm:top-2 lxm:top-10  2xl:hidden"
         src="\src\assets\About\upper-border-md.png"
         alt="upper border"
@@ -13,7 +14,10 @@ const About = () => {
         alt="down border"
       />
 
-      <div className="flex flex-col items-center sm:w-full sm:flex-row">
+      <div
+        data-aos="zoom-in"
+        className="flex flex-col items-center sm:w-full sm:flex-row"
+      >
         <div className="w-full px-[20px] sm:w-1/2 sm:order-3 sm:p-10 sm:pt-0 lg:pl-20">
           <h1 className="text-center p-3 sm:pt-8 sm:mt-10 md:mt-0 font-bold sm:order-1 text-[20px] md:text-[27px] 2xl:text-[40px]">
             What is WTM Algiers ?
@@ -45,7 +49,10 @@ const About = () => {
         alt="shape"
       />
 
-      <div className="flex flex-col items-center sm:w-full sm:flex-row">
+      <div
+        data-aos="zoom-in"
+        className="flex flex-col items-center sm:w-full sm:flex-row"
+      >
         <div className="w-full px-[20px] sm:w-1/2 sm:p-10 sm:pt-0 lg:pr-20">
           <h1 className="text-center p-3 sm:pt-8 font-bold text-[20px] md:text-[27px] 2xl:text-[40px]">
             What is IWD?
@@ -69,6 +76,7 @@ const About = () => {
         />
       </div>
       <img
+        data-aos="fade-right"
         className="hidden sm:block absolute sm:right-1/2 sm:-mr-5 sm:bottom-10 sxm:bottom-2 lxm:bottom-10 2xl:hidden"
         src="\src\assets\About\lower-border-md.png"
         alt="shape"

@@ -3,16 +3,22 @@ import fb from "../../assets/logos/facebook.png";
 import insta from "../../assets/logos/instagram.png";
 import linkedin from "../../assets/logos/linkedin.png";
 import twitter from "../../assets/logos/twitter.png";
-
-import GDG from "../../assets/logos/gdg-algiers.png";
-import WTM from "../../assets/logos/wtm-algiers.png";
+import GDGLogo from "../../assets/logos/gdg-algiers.png";
+import WTMLogo from "../../assets/logos/wtm-algiers.png";
 
 const Footer = () => {
   return (
-    <section>
+    <section id="footer">
       <div className="flex flex-col items-center justify-end w-full lg:h-screen">
         <div className="flex items-center justify-center w-full font-bold text-[50px] p-12 mb-12  lg:text-[70px] lg:h-[30%] 2xl:h-[35%] bg-gradient-to-l text-iwd-white from-iwd-purple to-iwd-blue">
-          <p className="text-center">Still have a question ?</p>
+          <p
+            data-aos="zoom-in"
+            data-aos-delay="500"
+            data-aos-duration="2000"
+            className="text-center"
+          >
+            Still have a question ?
+          </p>
         </div>
 
         <div className="footeranimation flex flex-col items-end mb-10 lg:mb-16 mt-3 space-y-0 relative">
@@ -67,18 +73,24 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className="flex flex-row justify-center gap-9 items-center border-t-2 border-iwd-gray border-opacity-30  w-full lg:justify-between py-[10%] px-2 lg:py-8 lg:px-24 2xl:py-12 ">
+        <div className="flex flex-row justify-center gap-9 items-center border-t-2 border-iwd-gray border-opacity-30 w-full lg:justify-between py-[10%] px-2 lg:py-8 lg:px-24 2xl:py-12 ">
           <img
-            src={WTM}
-            className="lg:p-1/3 w-[100px] h-[20px] lg:w-[170px] lg:h-[30px]  "
+            data-aos="fade-right"
+            data-aos-delay="500"
+            data-aos-duration="2000"
+            src={WTMLogo}
+            className="lg:p-1/3 w-[100px] h-[20px] lg:w-[170px] lg:h-[30px]"
             alt="WTM Algiers"
           />
 
-          <p className="lg:p-1/3 text-[10px] lg:text-[15px] 2xl:text-[20px]">
+          <p className="lg:p-1/3 text-[13px] lg:text-base 2xl:text-[20px]">
             © 2023 WTM Algiers All rights reserved
           </p>
           <img
-            src={GDG}
+            data-aos="fade-left"
+            data-aos-delay="500"
+            data-aos-duration="2000"
+            src={GDGLogo}
             className="lg:p-1/3 w-[90px] h-[15px] lg:w-[170px] lg:h-[22px]"
             alt="GDG Algiers"
           />

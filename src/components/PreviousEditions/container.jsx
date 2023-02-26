@@ -1,13 +1,8 @@
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import cursor from "../../assets/PreviousEditions/cursor.png";
 import curve from "../../assets/icons/curve.png";
 
 const Container = ({ paragraph, image, reverse, first }) => {
-  useEffect(() => {
-    AOS.init({ duration: 1500 });
-  }, []);
+  
 
   return (
     <div className="flex flex-col items-center lg:flex-row 2xl:flex-row lg:gap-24 2xl:gap-28 container mt-[51px]">

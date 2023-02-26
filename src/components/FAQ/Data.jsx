@@ -24,10 +24,10 @@ const Data = ({ question, answer, i }) => {
       </div>
       <div
         className={`${
-          selected === i ? "h-20" : "h-0"
+          selected === i ? " h-56 lg:h-28" : "h-0"
         } transition-all duration-500 overflow-hidden`}
       >
-        <div className=" text-iwd-white text-[12px] lg:text-base 2xl:text-lg container pb-6">
+        <div className=" text-iwd-white text-[14px] lg:text-base 2xl:text-lg container pb-6">
           {answer}
         </div>
       </div>

@@ -11,7 +11,9 @@ const Hero = () => {
           className="hidden md:flex md:flex-row gap-2 justify-start items-center md:mt-[9vw] md:-ml-36"
         >
           <img src={arrow} alt="point-right" className="w-[20%] 2xl:w-[18%]" />
-          <span>Welcome to this beautiful community!</span>
+          <span className="text-[12px] 2xl:text-[18px]">
+            Where everyone can thrive in tech!{" "}
+          </span>
         </div>
         <div className="container">
           <div className="flex md:flex-row flex-col items-center gap-12 lg:gap-0 mt-36 sm:mt-32 md:mt-0">

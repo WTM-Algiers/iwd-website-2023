@@ -21,7 +21,7 @@ function Navbar() {
               <div className="relative">
                 <a
                   href={`${nav.redirect}`}
-                  className="hover:text-iwd-green transform-all duration-500"
+                  className="hover:text-iwd-green text-[15px] transform-all duration-500 2xl:text-[22px]"
                 >
                   {nav.title}
                 </a>

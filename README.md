@@ -57,7 +57,7 @@ Distributed under the No License. See `LICENSE` for more information.
 
 WTM Algiers - [@wtm_algiers](https://twitter.com/wtm_algiers) - wtm.algiers@esi.dz
 
-Project Link: [IWD23 Algiers](https://qiskit-fall-fest-algiers.wtmalgiers.org)
+Project Link: [IWD23 Algiers](https://iwd23.wtmalgiers.org)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 

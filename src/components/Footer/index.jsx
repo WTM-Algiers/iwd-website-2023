@@ -75,9 +75,6 @@ const Footer = () => {
 
         <div className="flex flex-row justify-center gap-9 items-center border-t-2 border-iwd-gray border-opacity-30 w-full lg:justify-between py-[10%] px-2 lg:py-8 lg:px-24 2xl:py-12 ">
           <img
-            data-aos="fade-right"
-            data-aos-delay="500"
-            data-aos-duration="2000"
             src={WTMLogo}
             className="lg:p-1/3 w-[100px] h-[20px] lg:w-[170px] lg:h-[30px]"
             alt="WTM Algiers"
@@ -87,8 +84,6 @@ const Footer = () => {
             © 2023 WTM Algiers All rights reserved
           </p>
           <img
-            data-aos="fade-left"
-            data-aos-duration="2000"
             src={GDGLogo}
             className="lg:p-1/3 w-[90px] h-[15px] lg:w-[170px] lg:h-[22px]"
             alt="GDG Algiers"

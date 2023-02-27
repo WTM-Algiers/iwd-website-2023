@@ -11,7 +11,7 @@ const BorderRight = ({ word }) => {
         src={lines_toLeft}
         alt="shape"
       />
-      <p className=" text-[32px] lg:text-[32px] 2xl:text-5xl font-bold">
+      <p className=" text-[32px] lg:text-[32px] 2xl:text-[2.8rem] font-bold">
         {word}
       </p>
       <img

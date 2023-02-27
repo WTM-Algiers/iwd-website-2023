@@ -56,6 +56,14 @@ const PreviousEditions = () => {
       />
 
       <BorderLeft word={"IWD 23"} />
+      <div className="mt-[50px] lg:mt-[100px] flex items-center justify-center w-full font-bold p-12 mb-12 text-[56px] lg:text-[85px] 2xl:text-[128px] lg:h-[30%] 2xl:h-[35%] text-iwd-white bg-grandient relative">
+        <p className="text-center">Dare To Be Part Of It!</p>
+        <img
+          src={star}
+          alt="shape"
+          className="hidden lg:block absolute -right-20 -top-36 h-[200px] w-[200px] 2xl:h-[300px] 2xl:w-[300px] 2xl:-right-28"
+        />
+      </div>
     </section>
   );
 };

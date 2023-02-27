@@ -7,7 +7,7 @@ const BorderLeft = ({ word }) => {
       className="flex flex-row justify-center  mt-12 lg:mr-[517px] 2xl:mr-[776px] gap-7 lg:gap-x-6 2xl:gap-10 "
     >
       <img
-        className="rotate-180 2xl:w-[850px] hidden lg:flex 2xl:flex"
+        className="rotate-180 2xl:w-[780px] hidden lg:flex 2xl:flex"
         src={line_end_circle_toRight}
         alt="shape"
       />
@@ -15,7 +15,7 @@ const BorderLeft = ({ word }) => {
         {word}
       </p>
       <img
-        className="  w-[33.76px] h-[49.9px] lg:w-[34px] 2xl:w-[51px] lg:h-[50px] 2xl:h-[75px]"
+        className="w-[33.76px] h-[49.9px] lg:w-[34px] 2xl:w-[51px] lg:h-[50px] 2xl:h-[75px]"
         src={lines_toLeft}
         alt="shape"
       />

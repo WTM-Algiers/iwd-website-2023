@@ -1,16 +1,27 @@
+import BorderUpMd from "../../assets/About/upper-border-md.png";
+import BorderUpLg from "../../assets/About/upper-border-lg.png";
+import AboutUpperImg from "/src/assets/About/about-upper-img.png";
+import AboutElementMd from "/src/assets/About/about-element-md.png";
+import AboutElementLg from "/src/assets/About/about-element-lg.png";
+import AboutLowerMd from "/src/assets/About/about-lower-img-md.png";
+import AboutLowerBorderMd from "/src/assets/About/lower-border-md.png";
+import AboutLowerBorderLg from "/src/assets/About/lower-border-lg.png";
 const About = () => {
   return (
-    <section className="about-cntnr w-screen flex flex-col sm:overflow-hidden justify-center items-center relative" id="about">
+    <section
+      className="about-cntnr w-screen flex flex-col sm:overflow-hidden justify-center items-center relative"
+      id="about"
+    >
       {/* Divs Horizontally */}
       <img
         data-aos="fade-left"
         className="upper-border hidden sm:block absolute  sm:left-1/2 sm:top-10 sxm:top-2 lxm:top-10  2xl:hidden"
-        src="\src\assets\About\upper-border-md.png"
+        src={BorderUpMd}
         alt="upper border"
       />
       <img
         className="upper-border hidden 2xl:block absolute 2xl:left-1/2 2xl:top-10  "
-        src="\src\assets\About\upper-border-lg.png"
+        src={BorderUpLg}
         alt="down border"
       />
 
@@ -33,19 +44,19 @@ const About = () => {
         </div>
         <img
           className="p-3 w-2/3 sm:w-1/2 sm:p-10 sm:items-end  sm:pb-0 lg:pr-20"
-          src="\src\assets\About\about-upper-img.png"
+          src={AboutUpperImg}
           alt="upper border"
         />
       </div>
 
       <img
         className="about-element hidden sm:block sxm:hidden lxm:block absolute sm:insert-x-1/2 2xl:hidden"
-        src="\src\assets\About\about-element-md.png"
+        src={AboutElementMd}
         alt="shape"
       />
       <img
         className="about-element hidden 2xl:block pl-12 absolute 2xl:insert-x-1/2"
-        src="\src\assets\About\about-element-lg.png"
+        src={AboutElementLg}
         alt="shape"
       />
 
@@ -71,19 +82,19 @@ const About = () => {
         </div>
         <img
           className="p-3 w-2/3 sm:w-1/2 sm:-mt-20 md:-mt-30 sm:items-start sm:p-10 sm:pt-0 lg:pl-20 "
-          src="\src\assets\About\about-lower-img-md.png"
+          src={AboutLowerMd}
           alt="shape"
         />
       </div>
       <img
         data-aos="fade-right"
         className="hidden sm:block absolute sm:right-1/2 sm:-mr-5 sm:bottom-10 sxm:bottom-2 lxm:bottom-10 2xl:hidden"
-        src="\src\assets\About\lower-border-md.png"
+        src={AboutLowerBorderMd}
         alt="shape"
       />
       <img
         className="hidden 2xl:block absolute 2xl:right-1/2 2xl:-mr-5 2xl:bottom-10"
-        src="\src\assets\About\lower-border-lg.png"
+        src={AboutLowerBorderLg}
         alt="shape"
       />
     </section>

@@ -35,7 +35,7 @@ function Navbar() {
           ))}
         </ul>
         <div>
-          <button className="hidden lg:block bg-iwd-dark px-6 py-2 text-iwd-white rounded-full hover:bg-iwd-blue hover:text-bold transform-all duration-500">
+          <button disabled={true} className="hidden lg:block bg-iwd-dark px-6 py-2 text-iwd-white rounded-full hover:text-bold transform-all duration-500 cursor-not-allowed">
             Register
           </button>
         </div>

@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <section id="footer">
       <div className="flex flex-col items-center justify-end w-full lg:h-screen">
-        <div className="flex items-center justify-center w-full font-bold text-[50px] p-12 mb-12  lg:text-[70px] lg:h-[30%] 2xl:h-[35%] bg-gradient-to-l text-iwd-white from-iwd-purple to-iwd-blue">
+        <div className="flex items-center justify-center w-full font-bold text-[50px] p-12 mb-12  lg:text-[70px] lg:h-[30%] 2xl:h-[35%] text-iwd-white bg-grandient">
           <p
             data-aos="zoom-in"
             data-aos-delay="500"

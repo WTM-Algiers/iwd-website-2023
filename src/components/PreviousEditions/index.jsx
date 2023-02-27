@@ -12,7 +12,7 @@ const PreviousEditions = () => {
       <p className=" mt-14 text-[28px] lg:text-[48px] 2xl:text-[72px] text-center font-bold">
         Previous Editions
       </p>
-      <div className="relative bg-gradient-to-r from-iwd-blue to-iwd-purple w-full mt-[52px]">
+      <div className="relative bg-grandient w-full mt-[52px]">
         <img
           className="absolute hidden lg:flex 2xl:flex lg:w-[136px] lg:h-[128.45px] w-[204px] h-[192.68px] -rotate-12 top-[-75px]"
           src={star}

@@ -32,7 +32,14 @@ html {
   -moz-background-clip: text;
   background-clip: text;
 }
-
+.bg-grandient {
+  background: linear-gradient(
+    99.12deg,
+    #4882f1 -18.99%,
+    #4ea3f7 51.3%,
+    #25f0b3 140.75%
+  );
+}
 .animated-text {
   height: 75px;
   line-height: 85px;
@@ -41,13 +48,13 @@ html {
 }
 .animated-text span {
   position: relative;
-  animation: textChange 8s ease infinite;
+  animation: textChange 6s ease infinite;
 }
 
 @media screen and (min-width: 1600px) {
   .animated-text {
-    height: 105px;
-    line-height: 105px;
+    height: 108px;
+    line-height: 110px;
   }
 }
 
@@ -73,10 +80,10 @@ html {
     top: -56px;
   }
   75% {
-    top: -108px;
+    top: -113px;
   }
   95% {
-    top: -108px;
+    top: -113px;
   }
 }
 
@@ -113,16 +120,16 @@ html {
       top: 0;
     }
     35% {
-      top: -104.5px;
+      top: -117px;
     }
     70% {
-      top: -104.5px;
+      top: -117px;
     }
     75% {
-      top: -216.5px;
+      top: -231.5px;
     }
     95% {
-      top: -216.5px;
+      top: -231.5px;
     }
   }
 }

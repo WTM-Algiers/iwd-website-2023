@@ -88,7 +88,6 @@ const Footer = () => {
           </p>
           <img
             data-aos="fade-left"
-            data-aos-delay="500"
             data-aos-duration="2000"
             src={GDGLogo}
             className="lg:p-1/3 w-[90px] h-[15px] lg:w-[170px] lg:h-[22px]"

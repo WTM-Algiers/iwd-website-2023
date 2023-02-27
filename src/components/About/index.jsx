@@ -35,11 +35,10 @@ const About = () => {
           </h1>
           <p className="text-justify p-3 paragraph-sizing">
             Women Techmakers is a program created by Google, that encourages
-            women to integrate, pursue, and outshine in technology careers
-            through their Google Developers Groups communities dispersed
-            worldwide. Women Techmakers Algiers (WTM Algiers) is part of this
-            international community that helps empower and improve the
-            enrollment of women in the STEM field.
+            women to integrate, pursue technical careers through their Google
+            Developers Groups communities dispersed worldwide. Women Techmakers
+            Algiers (WTM Algiers) is part of this international community that
+            helps empower and improve the enrollment of women in the STEM field.
           </p>
         </div>
         <img

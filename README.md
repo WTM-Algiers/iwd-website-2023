@@ -17,7 +17,7 @@
     <img src="/public/favicon2.png" alt="IWD23 Algiers" width="70%" height="auto">
   </a>
 
-  <h3 align="center">International Women Day 23 Algiers website</h3>
+  <h3 align="center">International Women Day 2023 Algiers website</h3>
 
   <p align="center">
     this is the official repository for IWD23 Algiers website

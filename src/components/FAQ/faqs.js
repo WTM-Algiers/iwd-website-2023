@@ -2,7 +2,7 @@ const questions = [
   {
     qst: "What is IWD’23 Algiers?",
     answer:
-      "IWD is an annual event that celebrates international women’s day and brings together women in tech from around the world to network, share experiences and learn from each other. In this year’s edition at WTM Algiers, we’ll offer various workshops covering various topics and a Hackathon where participants can unleash their creative ideas in a very interactive and engaging environment.",
+      "IWD is an annual event that celebrates International Women’s Day. It brings together women in tech from around the world to network, share experiences and learn from each other. In this year’s edition at WTM Algiers, we’ll offer various workshops covering various topics and a Hackathon where participants can unleash their creative ideas in a very interactive and engaging environment.",
   },
   {
     qst: "What is the theme of this year?",
@@ -27,7 +27,7 @@ const questions = [
   {
     qst: "Can anyone participate in the workshops?",
     answer:
-      "Absolutely! registrations will be open on our Social media for everyone. However, the workshops will not be beginner friendly, they will cover some advanced concepts, if you are interested in any topic and have some knowledge about it, don’t hesitate to apply!",
+      "Absolutely! registrations will be open on our social media for everyone. However, the workshops will not be beginner friendly, they will cover some advanced concepts, if you are interested in any topic and have some knowledge about it, don’t hesitate to apply!",
   },
   {
     qst: "What is the ideal number of people per team in the hackathon?",

@@ -24,8 +24,8 @@ const Data = ({ question, answer, i }) => {
       </div>
       <div
         className={`${
-          selected === i ? " h-56 lg:h-28" : "h-0"
-        } transition-all duration-500 overflow-hidden`}
+          selected === i ? " max-h-56 lg:max-h-28" : "max-h-0"
+        } transition-all duration-300 overflow-hidden`}
       >
         <div className=" text-iwd-white text-[14px] lg:text-base 2xl:text-lg container pb-6">
           {answer}

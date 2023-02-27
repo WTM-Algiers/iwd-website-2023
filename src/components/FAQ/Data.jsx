@@ -1,11 +1,11 @@
 import { useState } from "react";
 const Data = ({ question, answer, i }) => {
-  const [color, setColor] = useState("bg-iwd-purple");
+  const [color, setColor] = useState("bg-iwd-blue-second");
 
   const [selected, setSelected] = useState(null);
   const toggle = (i) => {
     if (selected == i) {
-      setColor("bg-iwd-purple");
+      setColor("bg-iwd-blue-second");
       return setSelected(null);
     }
     {

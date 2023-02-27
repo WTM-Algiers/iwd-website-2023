@@ -6,16 +6,16 @@ module.exports = {
       PTsans: ["PT Sans", "sans-serif"],
     },
     colors: {
-      "iwd-gray": '#231F1F',
-      "iwd-dark": '#000000',
+      "iwd-gray": "#231F1F",
+      "iwd-dark": "#000000",
       "iwd-white": "#ffffff",
       "iwd-pink": "#F2BFA0",
       "iwd-blue": "#79A0EF",
+      "iwd-blue-second": "#498AF2",
       "iwd-green": "#26efb4",
       "iwd-purple": "#8653ed",
-      "transparent":"transparent"
-
-    }, 
+      transparent: "transparent",
+    },
     screens: {
       sm: "540px",
       sxm: "680px",
@@ -25,7 +25,6 @@ module.exports = {
       "2xl": "1536px",
     },
     extend: {},
-
   },
   plugins: [],
 };

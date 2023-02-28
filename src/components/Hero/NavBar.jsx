@@ -35,9 +35,13 @@ function Navbar() {
           ))}
         </ul>
         <div>
-          <button disabled={true} className="hidden lg:block bg-iwd-dark px-6 py-2 text-iwd-white rounded-full hover:text-bold transform-all duration-500 cursor-not-allowed">
+          <a
+            href="https://tripetto.app/run/ZTAK3F5C4V"
+            target="__blank"
+            className="hidden lg:block bg-iwd-dark px-6 py-2 text-iwd-white rounded-full hover:text-bold transform-all duration-500 hover:bg-iwd-blue"
+          >
             Register
-          </button>
+          </a>
         </div>
 
         <div
@@ -50,10 +54,21 @@ function Navbar() {
         </div>
       </div>
 
-      <div className={`${toggle ? "h-[60vh] pt-4" : "h-0"} transform-all duration-700 overflow-hidden`}>
+      <div
+        className={`${
+          toggle ? "h-[60vh] pt-4" : "h-0"
+        } transform-all duration-700 overflow-hidden`}
+      >
         <ul className="flex flex-col items-center gap-12">
           {navLinks.map((navLink, idx) => (
-            <a key={idx} href={navLink.redirect} onClick={() => setToggle(false)} className="text-lg">{navLink.title}</a>
+            <a
+              key={idx}
+              href={navLink.redirect}
+              onClick={() => setToggle(false)}
+              className="text-lg"
+            >
+              {navLink.title}
+            </a>
           ))}
         </ul>
       </div>

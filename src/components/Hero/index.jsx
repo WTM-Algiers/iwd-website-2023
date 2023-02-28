@@ -37,12 +37,12 @@ const Hero = () => {
                 world, in IWD’23 Algiers we dare to create it!
               </p>
               <div>
-                <button
-                  disabled={true}
-                  className="bg-iwd-dark mt-2 text-iwd-white py-2 px-6 rounded-full transform-all duration-500 hover:text-bold lg:text-2xl lg:px-12 lg:py-[15px] 2xl:py-[18px] 2xl:px-14 cursor-not-allowed"
+                <a href="https://tripetto.app/run/ZTAK3F5C4V"
+                target="__blank"
+                  className="bg-iwd-dark mt-2 text-iwd-white py-2 px-6 rounded-full transform-all duration-500 hover:text-bold lg:text-2xl lg:px-12 lg:py-[15px] 2xl:py-[18px] 2xl:px-14 hover:bg-iwd-blue"
                 >
                   Register
-                </button>
+                </a>
               </div>
             </div>
 

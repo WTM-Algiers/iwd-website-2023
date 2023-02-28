@@ -20,9 +20,9 @@ const PreviousEditions = () => {
         <p className="text-iwd-white font-normal text-[27px] 2xl:text-[40px] text-center px-10 py-24 lg:px-20 lg:py-10 2xl:px-[120px] 2xl:py-16 leading-[64px] lg:leading-10  2xl:leading-[60px]">
           International Women’s Day is WTM Algiers’ biggest event, besides many
           others and besides projects, our organizers always put their hearts
-          and souls to deliver the best version of this event each, each year,
-          better than the previous one. Let’s have a look back on how were few
-          past editions!
+          and souls to deliver the best version of this event, each year, better
+          than the previous one. Let’s have a look back on how were few past
+          editions!
         </p>
       </div>
       <BorderRight word={"IWD 20"} />

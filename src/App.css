@@ -43,8 +43,7 @@ html {
   );
 }
 .animated-text {
-  height: 75px;
-  line-height: 85px;
+  height: 64px;
   border: 0px solid #333;
   overflow: hidden;
 }
@@ -53,17 +52,18 @@ html {
   animation: textChange 6s ease infinite;
 }
 
-@media screen and (min-width: 1600px) {
+
+@media screen and (min-width: 900px) {
   .animated-text {
-    height: 114px;
-    line-height: 110px;
+    height: 95px;
+    line-height: 95px;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 1600px) {
   .animated-text {
-    height: 50px;
-    line-height: 55px;
+    height: 130px;
+    line-height: 130px;
   }
 }
 
@@ -89,7 +89,7 @@ html {
   }
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 900px) {
   @keyframes textChange {
     0%,
     100% {
@@ -99,16 +99,16 @@ html {
       top: 0;
     }
     35% {
-      top: -88.5px;
+      top: -100px;
     }
     70% {
-      top: -88.5px;
+      top: -100px;
     }
     75% {
-      top: -180px;
+      top: -200px;
     }
     95% {
-      top: -180px;
+      top: -200px;
     }
   }
 }
@@ -122,16 +122,16 @@ html {
       top: 0;
     }
     35% {
-      top: -117px;
+      top: -130px;
     }
     70% {
-      top: -117px;
+      top: -130px;
     }
     75% {
-      top: -231.5px;
+      top: -260px;
     }
     95% {
-      top: -231.5px;
+      top: -260px;
     }
   }
 }

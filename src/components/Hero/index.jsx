@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="2xl:flex-1 flex flex-col justify-center items-center md:items-start">
               <h1 className="font-bold leading-[58px] text-5xl md:text-[6vw] lg:text-[6.5vw] md:text-left lg:leading-[104px] 2xl:leading-[150px]">
                 Dare to <br /> <span>be</span>{" "}
-                <div className="inline-block animated-text animated-text-lg">
+                <div className="inline-block animated-text animated-text-lg translate-y-6 ">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-iwd-blue to-iwd-green gradient-text">
                     Creative!
                     <br />

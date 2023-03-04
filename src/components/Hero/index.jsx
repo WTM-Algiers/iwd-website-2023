@@ -66,7 +66,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <CounterContainer countDownLimit={1678813200000} />
+      <CounterContainer countDownLimit={1678986000000} />
     </section>
   );
 };
